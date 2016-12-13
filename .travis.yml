@@ -6,4 +6,7 @@ python:
 branches:
     only:
         - master
+install:
+	- pip install -r requirements.txt 
+
 script: python  test.py 
