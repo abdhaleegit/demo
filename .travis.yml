@@ -6,5 +6,4 @@ python:
 branches:
     only:
         - master
-script: 
-	- echo "Hello World"
+script: python  test.py 
