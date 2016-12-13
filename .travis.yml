@@ -6,6 +6,5 @@ python:
 branches:
     only:
         - master
-script:
-	if True:
-	    print "Hello World"
+script: 
+	- echo "Hello World"
